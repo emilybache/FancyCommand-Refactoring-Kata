@@ -1,0 +1,16 @@
+<MainMenu>
+    <Lib>
+        <Tools>
+            <Tool id="@NET.Acme.AppFancyCommand"/>
+            <Tool id="@NET.Acme.AppStandardCommand"/>
+        </Tools>
+    </Lib>
+    <Commands>
+        <Command id = "App.fancy">
+            <Tool idref="@NET.Acme.AppFancyCommand"/>
+        </Command>
+        <Command id = "App.standard">
+            <Tool idref="@NET.Acme.AppStandardCommand"/>
+        </Command>
+    </Commands>
+</MainMenu>
