@@ -17,7 +17,7 @@ It should instead look like this:
 	<Tool id="@NET.Acme.AppFancyCommand">
 		<Parameters>
 			<Parameter name="CustomParameter" value="//ID: 71mUJgN0sKbr" />
-            <Parameter name="CustomParameter" value="//Customer: Acme" />
+			<Parameter name="CustomParameter" value="//Customer: Acme" />
 		</Parameters>
 	</Tool>
 
